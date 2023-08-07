@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(100, 16, 16);
+}
+.to-do{
+background-color: darkgrey;
+border-radius:20px ;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 500px;
+margin: auto;
+margin-top: 20px;
+padding: 20px;
+}
+input[type=text]{
+    width:100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+button{
+    color: rgb(248, 239, 239);
+    padding: 5px 5px;
+    margin: 5px;
+    width: 100px;
+    background-color: orangered;
+    cursor: pointer;
+    border-radius: 30px;
+}
+button:hover{
+    background-color: orange;
+}
+ul{
+    list-style:circle;
+}
+li{
+    padding: 10px 10px;
+   
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    color: white;
+    
+}
+.heading{
+    color: crimson;
+}
+main{
+    width: 500px;
+    background-color: cadetblue;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+p{
+    color: white;
+}
+
+.lists{
+    font-weight: bold;
+
+    margin-right: 10px;
+}
+i{
+    color: darkslategray;
+}
