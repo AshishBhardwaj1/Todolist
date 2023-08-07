@@ -58,7 +58,7 @@ seteditval(text)
     
     <div>
         <div className="to-do" >
-            <h1>To Do List</h1>
+            <h1>To Do List <i class="fa-regular fa-clipboard fa-2xl" style={{color: "#1f5149;"}}></i></h1>
             <input type="text" value={input} onChange={(e)=>setinput(e.target.value) } placeholder='write notes here...' name="" id="" />
           {
             editmode? (
@@ -79,8 +79,8 @@ seteditval(text)
   {todos.text}
   </div>
 <div>
-<button  onClick={()=>deltodo(todos.id)}> <i class="fa fa-trash" aria-hidden="true"></i></button>
-   <button  onClick={()=>editTodo(todos.id,todos.text)}>  <i class="fas fa-edit"></i> </button> 
+<button  onClick={()=>deltodo(todos.id)}><i class="fa-solid fa-trash-can fa-xl" style={{color: "#fff"}}></i> </button>
+   <button  onClick={()=>editTodo(todos.id,todos.text)}><i class="far fa-edit fa-lg" style={{color:"#fff"}}></i> </button> 
    </div> </li>
                 ))
                 }
